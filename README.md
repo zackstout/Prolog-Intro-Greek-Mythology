@@ -10,7 +10,11 @@ Also, can't put comments in the knowledge-base. Use semicolons to scroll through
 ## Examples
 `father(X, hermione), father(Y, X).` returns `Y = atreus`, the grandfather of Hermione.
 
-`get_grandchild.` returns the grandchildren of Zeus, because of the rule we've added to our knowledge-base.
+`isGrandparent(zeus, X).` returns all of Zeus' grandchildren.
+
+`isGrandchild(agamemnon, X), female(X).` returns Agamemnon's grandmother(s).
+
+`isSibling(X, Y).` returns all the pairs of siblings.
 
 ## Syntax:
 - OR: semicolon (;)
