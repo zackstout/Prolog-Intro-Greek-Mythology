@@ -16,13 +16,15 @@ Also, can't put comments in the knowledge-base. Use semicolons to scroll through
 
 `isSibling(X, Y).` returns all the pairs of siblings.
 
+`related(zeus, X).` returns all of Zeus' descendants.
+
 ## Syntax:
 - OR: semicolon (;)
 - AND: comma (,)
 - IF: colon and hyphen (:-)
 
 ## Notes
-- Note: it would probably be better to collapse father/mother into parent and give each member a gender (for brothers, uncles, etc.)
+- isChild is redundant; instead of writing `isChild(zeus, X).`, write `parent(X, zeus).`.
 - Note: Using this [video](https://www.youtube.com/watch?v=SykxWpFwMGs) as a rough guide. Minute 38 is where he gets into recursion.
 - Note: Use `trace.` to turn on debugging mode.
 

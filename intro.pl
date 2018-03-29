@@ -262,6 +262,8 @@ titan(atlas).
 titan(prometheus).
 titan(themis).
 
+related(X, Y) :-
+  parent(X, Y).
 
 related(X, Y) :-
   parent(X, Z), related(Z, Y).
