@@ -262,12 +262,18 @@ titan(atlas).
 titan(prometheus).
 titan(themis).
 
-related(X, Y) :-
+
+
+
+
+isDivine(X) :-
+  titan(X) ; olympian(X) ; X = gaia; X = uranus.
+
+descendant(X, Y) :-
   parent(X, Y).
 
-related(X, Y) :-
+descendant(X, Y) :-
   parent(X, Z), related(Z, Y).
-
 
 isSibling(X, Y) :-
   parent(M, X), parent(M, Y), X \= Y.
