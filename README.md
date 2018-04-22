@@ -29,4 +29,8 @@ Also, can't put comments in the knowledge-base. Use semicolons to scroll through
 - Note: Use `trace.` to turn on debugging mode.
 
 ## Something we learned:
-Just as with `git pull` -- where the defaults are filled in for you -- so with `git push`.
+Just as with `git pull` -- where the defaults are filled in for you -- so with `git push`. Wait, this might not be true...
+
+## Next Steps:
+- [ ] Integrate with a JavaScript app to make queries, maybe using `prolog-swi`.
+- [ ] Understand list (first and rest) syntax and recursion; I think those are the missing ingredients.
